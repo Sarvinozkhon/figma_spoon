@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* body {
+  background-image: url(./img/copy.jpg);
+  background-size: 100% 125%;
+  background-repeat: no-repeat;
+  background-position: COVER;
+
+  /* height: 582px;
+  width: 1440px; */
+
+@media screen and (max-width: 950px) {
+  .parent {
+    margin-top: 10% !important;
+  }
+  .example {
+    height: 100% !important;
+  }
+}
+
+@media screen and (max-width: 871px) {
+  .menu_bar {
+    display: none !important;
+  }
+  .burger {
+    display: inherit !important;
+    font-size: 30px;
+    color: white;
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .started {
+    margin-left: 30% !important ;
+  }
+}
+@media screen and (max-width: 620px) {
+  .pg2 {
+    height: 100% !important;
+  }
+  .big {
+    flex-direction: column !important;
+    margin: 10px !important;
+  }
+  .icons {
+    float: left !important;
+    margin-top: 20px !important;
+    margin-left: 0 !important;
+    width: 90% !important;
+  }
+  .one {
+    width: 90% !important;
+  }
+  .parent {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .child {
+    width: 80% !important;
+  }
+  .ikki {
+    margin-left: 20px !important;
+  }
+  .ch1 {
+    margin-left: -40px !important ;
+  }
+  .child2 pre {
+    font-size: 10px;
+  }
+  .uch {
+    margin-left: 50px !important;
+  }
+  .avtor {
+    font-size: 10px !important;
+  }
+  .final_box {
+    flex-direction: column !important;
+    height: 100% !important;
+  }
+  .children {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .text2 {
+    width: 80% !important;
+  }
+  .started {
+    font-size: 15px !important;
+    padding: 5px 10px !important;
+    margin-top: 0px !important;
+  }
+  .main_text {
+    margin-top: -30px !important;
+  }
+  .child2 pre {
+    font-size: 7px !important;
+  }
+  .spoon {
+    width: 100px;
+  }
+}
+
+header {
+  width: 100%;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  display: flex;
+  justify-content: center;
+}
+[class*="container"] {
+  width: auto;
+  height: auto;
+}
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 80%;
+}
+.menu_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}
+.logo {
+  width: 125.6px;
+  height: 30px;
+  font-size: 30px;
+  color: white;
+}
+li {
+  margin-left: 40px;
+  font-size: 20px;
+}
+a {
+  color: white;
+}
+.menu_button {
+  font-size: 17px;
+  padding: 11px 17px;
+  background-color: rgba(255, 0, 0, 0.014);
+  border-radius: 4px;
+  border: 2px solid white;
+}
+.burger {
+  display: none;
+}
+.main_text {
+  width: 60%;
+  height: 20%;
+
+  color: white;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: 115px;
+}
+.propel {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 1px;
+
+  color: #ffffff;
+}
+.subheading {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  margin-left: 15%;
+  /* identical to box height, or 185% */
+  margin-top: 35px;
+  text-align: center;
+}
+.started {
+  font-size: 20px;
+  padding: 15px 30px;
+  margin-left: 40%;
+  margin-top: 5%;
+
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 30px;
+
+  color: #ffffff;
+  background: #5ab963;
+  border-radius: 4px;
+}
+/* page2 */
+.page2 {
+  width: 1170px;
+  height: 582px;
+  border: 1px solid black;
+}
+#page2 {
+  background-color: white;
+  margin-top: 100px;
+  /* width: 100;
+  height: 700px; */
+}
+
+.pg2 {
+  margin: 40px;
+  width: 80%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+.big {
+  width: 40%;
+  height: 45%;
+
+  display: flex;
+  justify-content: center;
+}
+.one {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  /* or 150% */
+  text-align: left;
+
+  color: #000000;
+}
+.three {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  width: 25%;
+  height: 100%;
+  margin: auto 30px;
+  margin-left: 0;
+  text-align: left;
+}
+.grey {
+  color: grey;
+  font-weight: 100;
+}
+.first {
+  font-weight: 700;
+}
+.second {
+  color: grey;
+}
+.bx-coffee {
+  font-size: 30px;
+  color: #5ab963;
+}
+.tort {
+  width: 95%;
+}
+.text2 {
+  width: 410px;
+  height: 144px;
+  margin-top: 60px;
+}
+.bold {
+  font-weight: 700;
+}
+.grey {
+  font-weight: 100;
+  color: grey !important;
+}
+.one {
+  font-size: 1rem;
+}
+.tort {
+  margin: 0 10px;
+}
+.index {
+  color: #5ab963;
+  margin-top: -60px;
+}
+.example {
+  margin-top: 40px;
+  width: 90%;
+  height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+}
+.qism {
+  width: 80%;
+  height: 100%;
+}
+.parent {
+  width: 80%;
+  height: 45%;
+  margin: 30px 0;
+
+  display: flex;
+}
+.ikki {
+  margin-left: 100px;
+}
+.child {
+  width: 50%;
+  height: 90%;
+  margin: 10px;
+}
+.ch1 {
+  margin-left: 80px;
+}
+.child p {
+  font-size: 10%;
+  text-align: left;
+}
+.child .second_text {
+  font-size: 20px;
+  color: grey;
+}
+.more {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.green {
+  color: #5ab963;
+  margin-top: 10px;
+}
+.final_box {
+  margin-top: 100px;
+  height: 20vh;
+  width: 80%;
+
+  display: flex;
+}
+.children {
+  width: 50%;
+  height: 100%;
+  text-align: left;
+}
+.children .children_text {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.children_text .grey1 {
+  color: grey !important;
+  font-weight: 200;
+}
+.right_aligned {
+  margin-right: 0;
+  margin-left: 100px;
+}
+footer {
+  background-color: #0a0e1a;
+  color: white;
+  width: 100%;
+  height: 40vh;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_box {
+  width: 90%;
+  height: 40%;
+  display: flex;
+  margin-top: 100px;
+}
+.child2 {
+  width: 30%;
+  height: 100%;
+}
+.child2 pre {
+  font-family: "Times New Roman", Times, serif;
+}
